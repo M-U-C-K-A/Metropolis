@@ -17,3 +17,9 @@ body {
     color: whitesmoke;
     font-family: 'Kanit-SemiBold', sans-serif;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+h1>#titre {}
