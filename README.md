@@ -26,3 +26,11 @@ Pour installer le projet sur votre ordinateur, suivez les étapes suivantes :
 1. Clonez le dépôt sur votre ordinateur en utilisant la commande ``git clone https://github.com/yourusername/metropolis.git``
 2. Accédez au dossier du projet en utilisant la commande ``cd metropolis``
 3. Lancez le site vitrine en ouvrant le fichier ``index.html`` dans votre navigateur web
+
+## Contribution
+Si vous souhaitez contribuer à l'amélioration du site vitrine Metropolis, vous pouvez :
+
+- Forker le dépôt
+- Créer une branche pour vos modifications
+- Effectuer vos modifications
+- Soumettre une demande d'extraction pour fusionner vos modifications avec la branche principale
