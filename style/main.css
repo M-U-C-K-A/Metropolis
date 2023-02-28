@@ -20,6 +20,13 @@ body {
 
 h1 {
     font-size: 2em;
+    text-align: center;
+    line-height: 1;
+    font-size: calc(8000vw/1018);
 }
 
-h1>#titre {}
+h1>#titre {
+    color: transparent;
+    background-color: transparent;
+    -webkit-text-stroke: 2px whitesmoke;
+}
