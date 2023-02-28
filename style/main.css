@@ -37,6 +37,12 @@ nav ul {
     flex-grow: 1;
     gap: 1rem;
 }
+.carrousel {
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    margin: auto;
+}
 
 img {
     width: 100%;
@@ -52,7 +58,7 @@ img:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     gap: 1rem;
     width: 90%;
     height: 200px;
