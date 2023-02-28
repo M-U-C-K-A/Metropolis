@@ -88,7 +88,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    margin-top: 55px;
+    justify-content: space-around;
 }
 
 ul {
