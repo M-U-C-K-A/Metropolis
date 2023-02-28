@@ -85,6 +85,7 @@ h1>#titre {
 }
 
 footer {
+    font-family: 'Kanit-SemiBold';
     display: flex;
     justify-content: space-between;
     align-items: center;
