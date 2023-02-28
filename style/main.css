@@ -46,6 +46,7 @@ img:hover {
 }
 
 h1 {
+    margin: 10px 0;
     text-align: center;
     line-height: 1;
     font-size: calc(9000vw/1018);
