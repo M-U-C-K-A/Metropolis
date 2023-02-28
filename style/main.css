@@ -18,6 +18,7 @@ body {
     font-family: 'Kanit-SemiBold', sans-serif;
     cursor: url("../src/cursor-line.png"), pointer;
     user-select: none;
+    height: 100vh;
 }
 
 nav {
@@ -44,19 +45,20 @@ img {
     transition: 0.3s ease-in-out;
 }
 
-.images>div>img:hover {
-    transform: scale(1.1);
+img:hover {
+    transform: scale(1.05);
 }
 .slider {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    align-items: flex-start;
     justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
     width: 90%;
     height: 200px;
 }
-.slider>img:hover {
-    height: 200%;
+.slider>img:last-child {
+    width: 200px;
 }
 
 h1 {
