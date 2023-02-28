@@ -18,6 +18,15 @@ body {
     font-family: 'Kanit-SemiBold', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+}
+
 .images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
