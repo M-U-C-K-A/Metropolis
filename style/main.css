@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Kanit-Bold';
+    src: url('fonts/Kanit-Bold.woff2') format('woff2'), url('fonts/Kanit-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kanit-SemiBold';
+    src: url('fonts/Kanit-SemiBold.woff2') format('woff2'), url('fonts/Kanit-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    font-family: 'Kanit-SemiBold', sans-serif;
+}
