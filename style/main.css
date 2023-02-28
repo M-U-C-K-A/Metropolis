@@ -58,13 +58,16 @@ img:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 2rem;
     gap: 1rem;
     width: 90%;
+    margin: 2rem auto 5rem auto;
     height: 200px;
 }
 .slider>img:last-child {
     width: 200px;
+    height: 300px;
+}
+.slider>img:first-child {
 }
 
 h1 {
