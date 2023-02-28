@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Kanit";
+    src: url("fonts/kanit-bold.woff") format("woff");
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    font-family: ;
+}
