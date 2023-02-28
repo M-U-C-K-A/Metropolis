@@ -17,6 +17,7 @@ body {
     color: whitesmoke;
     font-family: 'Kanit-SemiBold', sans-serif;
     cursor: url("../src/cursor-line.png"), pointer;
+    user-select: none;
 }
 
 nav {
