@@ -20,14 +20,15 @@
 [data-theme="light"] {
     --background-color: whitesmoke;
     --text-color: #0D1117;
+    cursor: url("../src/cursor-line.png"), pointer;
 }
 
 
 body {
+    cursor: url("../src/cursor-white.png"), pointer;
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Kanit-SemiBold', sans-serif;
-    cursor: url("../src/cursor-line.png"), pointer;
     user-select: none;
     height: 100vh;
 }
