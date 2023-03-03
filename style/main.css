@@ -37,6 +37,7 @@ nav ul {
     flex-grow: 1;
     gap: 1rem;
 }
+
 .carrousel {
     display: flex;
     width: 90%;
@@ -54,6 +55,7 @@ img {
 img:hover {
     transform: scale(1.05);
 }
+
 .slider {
     display: flex;
     align-items: flex-start;
@@ -63,10 +65,12 @@ img:hover {
     margin: 2rem auto 5rem auto;
     height: 200px;
 }
+
 .slider>img:last-child {
     width: 200px;
     height: 300px;
 }
+
 .slider>img:first-child:hover {
     height: 300px;
 }
@@ -108,6 +112,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .phoneApp {
     display: flex;
     justify-content: center;
@@ -117,42 +122,97 @@ a {
     width: 50px;
     height: 80px;
 }
+
 .phone-left {
+    overflow: hidden;
     background-color: red;
     width: 200px;
     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
+
 .phone-right {
     background-color: blue;
     width: 200px;
     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
+
 .phone-right h2 {
+    font-size: 2em;
+    text-align: center;
+}
+.phone-right h5 {
     font-size: 1em;
+    margin-top: 12px;
+    text-align: center;
+    color: darkgray;
+}
+.phone-right img {
+    padding: 15px;
+    height: 70%;
+    max-height: 250px;
+    width: auto;
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-zone {
-  width: 40%;
-  margin: 10px;
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+    width: 40%;
+    margin: 10px;
+    background-color: #f2f2f23a;
+    box-sizing: border-box;
 }
+
 .card {
     background-color: lightcoral;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.card i {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .card-zone:nth-child(odd) {
-  margin-top: 20px;
-  margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .card-zone:nth-child(even) {
-  margin-top: 5px;
-  margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2em;
+    max-width: 25%;
+    text-align: center;
+    display: block;
+}
+
+.phone-left .ri-arrow-drop-left-line {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.phone-left .ri-search-2-line {
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
