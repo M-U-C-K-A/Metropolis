@@ -130,8 +130,6 @@ a {
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
     border-radius: 15px;
-
-    overflow: hidden;
     width: 200px;
     height: 450px;
     display: flex;
@@ -190,6 +188,7 @@ a {
 .card img {
     position: absolute;
     bottom: 0;
+    object-fit: contain;
 }
 
 .card {
