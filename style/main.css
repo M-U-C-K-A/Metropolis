@@ -130,3 +130,29 @@ a {
 .phone-right h2 {
     font-size: 1em;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-zone {
+  width: 40%;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.card {
+    background-color: lightcoral;
+}
+
+.card-zone:nth-child(odd) {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.card-zone:nth-child(even) {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
