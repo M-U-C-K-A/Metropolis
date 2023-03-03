@@ -1,0 +1,15 @@
+body {
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 950px;
+}
+ul {
+    padding: 15px;
+    list-style-type: square;
+       display: inline;
+}
+h2 {
+    font-size: 2em;
+    margin: 25px auto;
+}
