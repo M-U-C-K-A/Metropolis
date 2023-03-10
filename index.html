@@ -32,7 +32,18 @@
             <a href="pages/phoneapp.html"><li><i class="ri-user-line"></i></li></a>
             <a href="pages/phoneapp.html"><li><i class="ri-heart-line"></i></li></a>
             <a href="pages/phoneapp.html"><li><i class="ri-shopping-bag-line"></i></li></a>
-            <li><input type="checkbox" id="themeSwitch"></label></li>
+            <li><label for="with-warrenty" class="switch-container">
+                <input hidden type="checkbox" id="with-warrenty" />
+                <div class="switch-bg"></div>
+                <div class="round-box"></div>
+                <div class="switch-left">
+                    <span>L</span>
+                </div>
+                <div class="switch-right">
+                    <span>D</span>
+                </div>
+                </label>
+            </li>
         </ul>
     </nav>
 </header>
@@ -74,7 +85,7 @@
 
     <script>
         
-        document.getElementById('themeSwitch').addEventListener('change', function(event){
+        document.getElementById('with-warrenty').addEventListener('change', function(event){
     (event.target.checked) ? document.body.setAttribute('data-theme', 'light') : document.body.removeAttribute('data-theme');});
 
     </script>

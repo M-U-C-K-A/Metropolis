@@ -20,14 +20,14 @@
 [data-theme="light"] {
     --background-color: whitesmoke;
     --text-color: #0D1117;
-    cursor: url("../src/cursor-line.png"), pointer;
 }
 
+
 body {
-    cursor: url("../src/cursor-white.png"), pointer;
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Kanit-SemiBold', sans-serif;
+    cursor: url("../src/cursor-line.png"), pointer;
     user-select: none;
     height: 100vh;
 }
@@ -222,7 +222,6 @@ a {
     left: 0;
 }
 
-
        
 .switch {
     position: relative;
@@ -260,4 +259,97 @@ a {
     position: absolute;
     top: 5px;
     right: 5px;
+}
+
+
+
+.switch-wrapper {
+	width: 100%;
+	max-width: 300px;
+	margin-left: 0;
+	margin-right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.label-container p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.switch-container {
+	width: 100%;
+	max-width: 11px;
+	max-height: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 8px;
+	border-radius: 50px;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.switch-container .switch-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: white;
+	z-index: -1;
+	transition: background-color 0.2s ease-in;
+}
+
+.switch-container #with-warrenty:checked ~ .switch-bg {
+	background-color: grey;
+}
+
+.switch-container .switch-left span {
+	font-size: 10px;
+	font-weight: 700;
+	color: grey;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.switch-container .switch-right span {
+	font-size: 10px;
+	font-weight: 700;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.switch-container #with-warrenty:checked ~ .switch-left span {
+	opacity: 1;
+}
+.switch-container #with-warrenty:checked ~ .switch-right span {
+	opacity: 0;
+}
+
+.switch-container .round-box {
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	top: 50%;
+	transform: translate(-4px, -50%);
+	background-color: black;
+	box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.switch-container #with-warrenty:checked ~ .round-box {
+	transform: translate(5px, -50%);
 }
