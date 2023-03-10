@@ -23,7 +23,6 @@
     cursor: url("../src/cursor-line.png"), pointer;
 }
 
-
 body {
     cursor: url("../src/cursor-white.png"), pointer;
     background-color: var(--background-color);
