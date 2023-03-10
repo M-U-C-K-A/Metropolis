@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Signika:wght@600&display=swap');
+
 @font-face {
     font-family: 'Kanit-Bold';
     src: url('fonts/Kanit-Bold.woff2') format('woff2'), url('fonts/Kanit-Bold.woff') format('woff');
@@ -222,14 +224,14 @@ a {
     left: 0;
 }
 
-       
+
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
 }
-		
+
 
 .card-zone:nth-child(odd) {
     margin-top: 20px;
@@ -264,99 +266,106 @@ a {
 
 
 .switch-wrapper {
-	width: 100%;
-	max-width: 300px;
-	margin-left: 0;
-	margin-right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .label-container p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #000;
-	font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .switch-container {
-	width: 100%;
-	max-width: 11px;
-	max-height: 6px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px 8px;
-	border-radius: 50px;
-	position: relative;
-	cursor: pointer;
-	overflow: hidden;
+    width: 100%;
+    max-width: 11px;
+    max-height: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .switch-container .switch-bg {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background-color: white;
-	z-index: -1;
-	transition: background-color 0.2s ease-in;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: -1;
+    transition: background-color 0.2s ease-in;
 }
 
-.switch-container #with-warrenty:checked ~ .switch-bg {
-	background-color: grey;
+.switch-container #with-warrenty:checked~.switch-bg {
+    background-color: grey;
 }
 
 .switch-container .switch-left span {
-	font-size: 10px;
-	font-weight: 700;
-	color: grey;
-	font-family: 'Ubuntu', sans-serif;
-	line-height: 1;
-	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
+    font-size: 10px;
+    font-weight: 700;
+    color: grey;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .switch-container .switch-right span {
-	font-size: 10px;
-	font-weight: 700;
-	color: white;
-	font-family: 'Ubuntu', sans-serif;
-	line-height: 1;
-	opacity: 1;
-	transition: opacity 0.3s ease-in-out;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.switch-container #with-warrenty:checked ~ .switch-left span {
-	opacity: 1;
+.switch-container #with-warrenty:checked~.switch-left span {
+    opacity: 1;
 }
-.switch-container #with-warrenty:checked ~ .switch-right span {
-	opacity: 0;
+
+.switch-container #with-warrenty:checked~.switch-right span {
+    opacity: 0;
 }
 
 .switch-container .round-box {
-	position: absolute;
-	width: 11px;
-	height: 11px;
-	top: 50%;
-	transform: translate(-4px, -50%);
-	background-color: black;
-	box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
-	border-radius: 50%;
-	transition: transform 0.3s ease-in-out;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 50%;
+    transform: translate(-4px, -50%);
+    background-color: black;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
 }
 
-.switch-container #with-warrenty:checked ~ .round-box {
-	transform: translate(5px, -50%);
+.switch-container #with-warrenty:checked~.round-box {
+    transform: translate(5px, -50%);
+}
+
 .presentation {
     margin-top: 150px;
 }
+
+.presentation h1 {
+    margin-bottom: 100px;
+}
+
 .presentation ul li {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -364,14 +373,51 @@ a {
     text-align: center;
     font-size: 2em;
 }
+
 #Elevate {
     width: 100%;
-    background-color: blue;
     font-size: 2.5em;
+    text-align: center;
+    margin: 125px auto 25px auto;
 
 }
+
 .street {
     width: 250px;
-margin: 15px;
+    margin: 15px;
     float: right;
+}
+
+.presentation h1,
+.presentation h2,
+.presentation h3 {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.presentation p {
+    font-family: Montserrat;
+    padding: 28px;
+    margin-left: 10%;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.presentation li {
+    text-align: left;
+    height: 80px;
+}
+
+.presentation li:hover {
+    background-color: #1d1d1d;
+    transition: .2s;
+    color: wheat;
+}
+
+.presentation h3 {
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-size: 2em;
+    font-family: 'Signika', sans-serif;
+    color: rgb(177, 177, 177);
 }
