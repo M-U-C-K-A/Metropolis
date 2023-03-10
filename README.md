@@ -3,10 +3,10 @@ votre site vitrine de vêtements !
 
 # Membres
 
-**M-U-C-K-A** -> Hugo DELACOUR
-**tombihoreau** -> Tom Bihoreau
-**@beauflui** -> Luidjy BEAUFOND
-**Nabzs** -> Nabil BOUKHORISSA
+- **M-U-C-K-A** -> Hugo DELACOUR
+- **tombihoreau** -> Tom Bihoreau
+- **@beauflui** -> Luidjy BEAUFOND
+- **Nabzs** -> Nabil BOUKHORISSA
 
 
 ## Description
