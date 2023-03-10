@@ -250,3 +250,23 @@ a {
     top: 5px;
     right: 5px;
 }
+.presentation {
+    margin-top: 150px;
+}
+.presentation ul li {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+#Elevate {
+    float: right;
+}
+.street {
+    width: 250px;
+
+    float: right;
+}
