@@ -365,10 +365,13 @@ a {
     font-size: 2em;
 }
 #Elevate {
-    float: right;
+    width: 100%;
+    background-color: blue;
+    font-size: 2.5em;
+
 }
 .street {
     width: 250px;
-
+margin: 15px;
     float: right;
 }
