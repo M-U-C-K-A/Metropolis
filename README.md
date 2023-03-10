@@ -1,6 +1,14 @@
 Bienvenue sur le README du projet Metropolis, 
 votre site vitrine de vêtements !
 
+# Membres
+
+- **M-U-C-K-A** -> Hugo DELACOUR
+- **tombihoreau** -> Tom BIHOREAU 
+- **@beauflui** -> Luidjy BEAUFOND
+- **Nabzs** -> Nabil BOUKHORISSA
+
+
 ## Description
 **Metropolis** est une collection de vêtements modernes et élégants pour hommes et femmes. Ce projet est un site vitrine permettant de présenter la collection et de mettre en avant les produits.
 
